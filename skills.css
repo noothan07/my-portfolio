@@ -1,0 +1,97 @@
+.skills{
+    padding-top: 80px;
+}
+.skills img{
+    width: 80px;
+}
+.image {
+    
+    gap: 40px;
+    background-color: #243045;
+    border: 1px solid #334155;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    padding:20px;
+    width: 70%;
+    margin-left: 180px;
+    margin-top:60px ;
+    border-radius: 30px;
+    animation: floatY 2s ease-in-out infinite;
+    position: relative;
+    z-index: -999;
+}
+.image img{
+    margin-right: 20px ;
+    margin-left: 20px;
+}
+@keyframes floatY {
+  0%   { top: 0; }
+  50%  { top: -10px; }
+  100% { top: 0; }
+}
+.skills h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+.image p{
+    color: rgb(208, 231, 247);
+    font-weight: 200;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.app {
+    gap: 40px;
+    background-color: #243045;
+    border: 1px solid #334155;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    padding:20px;
+    width: 20%;
+    margin-top:60px ;
+    border-radius: 30px;
+    transition: all 1s ease;
+}
+.app:hover{
+    transform: translateY(-20px);
+   background-color:rgb(48, 63, 87) ;
+}
+.app img{
+    margin-right: 20px ;
+    margin-left: 20px;
+}
+.app p{
+    color: rgb(208, 231, 247);
+    font-weight: 200;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.editing{
+    gap: 40px;
+    background-color: #243045;
+    border: 1px solid #334155;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    padding:20px;
+    width: 20%;
+    margin-top:60px ;
+    border-radius: 30px;
+    transition: all 1s ease;
+}
+.editing:hover{
+    transform: translateY(-20px);
+    background-color:rgb(48, 63, 87) ;
+}
+.editing img{
+    margin-right: 20px ;
+    margin-left: 20px;
+}
+.editing p{
+    color: rgb(208, 231, 247);
+    font-weight: 200;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.image1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}

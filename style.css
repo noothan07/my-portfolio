@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+body{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  background: linear-gradient(to bottom, #0f172a, #1e293b);
+}
+    /*navbar */
+.navbar{
+  display: flex;
+  align-items: center ;
+  height: 70px;
+  background-color: #171b2c;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 0 10px rgb(97, 97, 97);
+  z-index: 999;
+}
+.logo{
+  width: 40% ;
+  font-size: 20px;
+  font-weight: 600;
+  color: #38bdf8;
+  padding-left: 100px;
+}
+.menu-bar{
+   list-style: none;
+   display: flex;
+   justify-content:space-around ;
+   width: 50%;
+   padding-right: 50px;
+}
+.menu-bar li{
+  font-size: 18px;
+}
+a
+{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: all 0.3s ease;
+}
+a:hover{
+  transform:scale(1.2);
+  color: rgb(101, 175, 239);
+}
+.hamburger {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+  color: white;
+  padding: 10px 20px;
+}
+
+
+/* Responsive Styles */
+
+
+@media only screen and (max-width: 600px) {
+
+  .navbar {
+    flex-direction:row;
+    height: auto;
+    padding: 15px;
+    align-items: flex-start;
+    position: sticky;
+    top: 0px;
+  }
+
+  .logo {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .hamburger {
+    display:flex;
+    font-size: 26px;
+    cursor: pointer;
+    color: white;
+    padding: 0px;
+
+  }
+
+  .menu-bar {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    background-color: #171b2c;
+  }
+
+  .menu-bar.show {
+    display: flex;
+  }
+
+  .menu-bar li {
+    padding: 12px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .sec1 {
+    flex-direction: column;
+    text-align:center;
+  }
+
+  .sec1 h1 {
+    font-size:30px;
+  }
+
+  .project-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .sec-3 .image {
+    align-items: center;
+    margin-left: 40px;
+  }
+
+  .image1 {
+    flex-direction:row;
+    gap: 30px;
+  }
+  .editing img {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+  .app img {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .about-text p {
+    padding: 0 10px;
+  }
+
+  .about-cards {
+    grid-template-columns: 1fr;
+  }
+  .about-cards .card{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .project-links {
+    flex-direction:row ;
+    gap: 10px;
+  }
+  .projects{
+    margin-bottom: 60px;
+  }
+}
