@@ -22,6 +22,9 @@ body{
   box-shadow: 0 0 10px rgb(97, 97, 97);
   z-index: 999;
 }
+button{
+  cursor: pointer;
+}
 .logo{
   width: 40% ;
   font-size: 20px;

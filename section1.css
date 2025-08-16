@@ -22,8 +22,7 @@
     font-size: 60px;
     color:rgb(255, 255, 255);
     text-shadow: 0px 0px 50px #ffffff;
-    transition: all 3s ease;
-    cursor: pointer;
+    
 }
 .sec-1-2-2{
     font-weight: 600;
