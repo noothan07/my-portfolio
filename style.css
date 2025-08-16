@@ -17,10 +17,7 @@ body{
   background-color: #171b2c;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
-  position: sticky;
-  top: 0;
   box-shadow: 0 0 10px rgb(97, 97, 97);
-  z-index: 999;
 }
 button{
   cursor: pointer;
@@ -71,22 +68,11 @@ a:hover{
     height: auto;
     padding: 15px;
     align-items: flex-start;
-    position: sticky;
-    top: 0px;
   }
 
   .logo {
     width: 100%;
     padding: 10px;
-  }
-
-  .hamburger {
-    display:flex;
-    font-size: 26px;
-    cursor: pointer;
-    color: white;
-    padding: 0px;
-
   }
 
   .menu-bar {
@@ -97,16 +83,6 @@ a:hover{
     padding: 0;
     background-color: #171b2c;
   }
-
-  .menu-bar.show {
-    display: flex;
-  }
-
-  .menu-bar li {
-    padding: 12px 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-  }
-
   .sec1 {
     flex-direction: column;
     text-align:center;
